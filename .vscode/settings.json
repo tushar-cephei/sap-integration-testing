@@ -1,1 +1,17 @@
-{}
+{
+  "typescript.preferences.organizeImports": {
+    "accentCollation": true
+  },
+  "javascript.preferences.organizeImports": {
+    "accentCollation": true
+  },
+  "editor.foldingImportsByDefault": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always",
+    "source.removeUnusedImports": "always"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.words": ["healthcheck"]
+}
